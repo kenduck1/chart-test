@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dashboard - Dark Style</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    />
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+      crossorigin="anonymous"/>
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
@@ -113,12 +114,12 @@
       </div>
       <br><br>
       <h2>Stock vs Sentiment</h2>
-        <div class="btn-group">
-          <button type="button" id="one_month">1M</button>
-          <button type="button" id="six_months">6M</button>
-          <button type="button" id="one_year">1Y</button>
-          <button type="button" id="ytd">YTD</button>
-          <button type="button" id="all">ALL</button>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-secondary" id="one_month">1M</button>
+          <button type="button" class="btn btn-secondary" id="six_months">6M</button>
+          <button type="button" class="btn btn-secondary" id="one_year">1Y</button>
+          <button type="button" class="btn btn-secondary" id="ytd">YTD</button>
+          <button type="button" class="btn btn-secondary" id="all">ALL</button>
         </div>
         <div style="float: left; width: 50%" id="timeline-chart"></div>
         <div style="float: right; width: 50%" id="timeline-chart2"></div>

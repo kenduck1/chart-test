@@ -111,6 +111,7 @@ div.btn-group {
   margin-right: 0;
   font-weight: bold;
   text-align: center;
+  border: 1px white;
 }
 
 h2 {
