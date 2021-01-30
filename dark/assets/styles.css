@@ -97,3 +97,30 @@ body {
 }
 /* fusionexport btn CSS START */
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.btn-group {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+graphbox {
+  max-width: 50%;
+  float: left;
+}
+td {
+  align-content: center;
+}

@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dashboard - Dark Style</title>
-    <style>
-      h2 {text-align: center;}
-    </style>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -114,23 +111,21 @@
           </div>
         </div>
       </div>
+      <br><br>
+      <h2>Stock vs Sentiment</h2>
+        <div class="btn-group">
+          <button type="button" id="one_month">1M</button>
+          <button type="button" id="six_months">6M</button>
+          <button type="button" id="one_year">1Y</button>
+          <button type="button" id="ytd">YTD</button>
+          <button type="button" id="all">ALL</button>
+        </div>
+        <div style="float: left; width: 50%" id="timeline-chart"></div>
+        <div style="float: right; width: 50%" id="timeline-chart2"></div>
+    
+
     </div>
-    <br><br>
-    <h2>Stock vs Sentiment</h2>
-      <div class="btn-group">
-        <button type="button" id="one_month">1M</button>
-        <button type="button" id="six_months">6M</button>
-        <button type="button" id="one_year">1Y</button>
-        <button type="button" id="ytd">YTD</button>
-        <button type="button" id="all">ALL</button>
-        <div id="timeline-chart"></div>
-      </div>
-    <table>
-      <tr>
-        <td><div id="senti"></div></td>
-        <td><div id="stock"></div></td>
-      </tr>
-    </table>
+
     <!-- <div id="chart-line"></div>
     <div id="chart-line2"></div>
     <div id="chart-line3"></div>
