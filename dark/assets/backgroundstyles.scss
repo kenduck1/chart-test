@@ -13,6 +13,7 @@ body {
 body {
   background: #81a6e0;
   background: linear-gradient(to bottom, #81a6e0 0%, #cc7bc5 100%);
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 svg {
@@ -24,11 +25,11 @@ svg.hide {
 
 svg * {
   stroke: inherit;
-  transform: inherit;
-  transform-origin: inherit;
+  // transform: inherit;
+  // transform-origin: inherit;
   animation-delay: inherit;
   stroke: #ffffff;
-  stroke-width:inherit;
+  // stroke-width:inherit;
 }
 
 svg {
